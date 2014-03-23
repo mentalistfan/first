@@ -1,0 +1,21 @@
+<% if notice %>
+    <p id="notice"><%= notice %></p>
+<% end %>
+<h1><%= @products.title %></h1>
+
+<p>Title: <%= @products.title %></p>
+
+<p>
+  <b>Description:</b>
+  <%= @products.description %>
+</p>
+
+<p>
+  <b>Image url:</b>
+  <%= @products.image_url %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @products.price %>
+</p>
